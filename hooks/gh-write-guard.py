@@ -65,6 +65,7 @@ READONLY = {
     ("issue", "status"),
     ("repo", "view"),
     ("repo", "list"),
+    ("repo", "clone"),
     ("run", "view"),
     ("run", "list"),
     ("run", "watch"),
