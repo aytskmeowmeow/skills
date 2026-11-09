@@ -2,3 +2,7 @@
 # 再現は fixtures/<name>/setup.sh から可能。
 commit-workflow/workspace/iteration-*/*/with_skill/repo/
 commit-workflow/workspace/iteration-*/*/without_skill/repo/
+
+# Fable は業務では使用禁止（Opus 等と違い、データが Anthropic 側に送られるため）。
+# それを止める hook はローカルにだけ置き、配布対象にしない。
+hooks/block-fable-model.py
